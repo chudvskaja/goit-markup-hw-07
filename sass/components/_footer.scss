@@ -1,0 +1,23 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $secondaryBgColor;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts {
+  margin-right: 70px;
+}
+
+.join-us {
+  padding-top: 12px;
+  padding-bottom: 40px;
+}
+
+.join-us:not(:last-child) {
+  margin-right: 93px;
+}

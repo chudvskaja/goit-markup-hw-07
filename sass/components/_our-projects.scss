@@ -1,0 +1,15 @@
+.our-projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+
+.project-item:not(:last-child) {
+  margin-right: 8px;
+}

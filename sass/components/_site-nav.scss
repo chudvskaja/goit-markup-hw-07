@@ -1,0 +1,61 @@
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav-link {
+  color: $titleTextColor;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
+}
+
+.navigation-button {
+  display: flex;
+
+  .item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.studio {
+  padding-bottom: 0;
+  color: $accentColor;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolut;
+    margin-top: 28px;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accentColor;
+  }
+}
+
+.portfolio {
+  padding-bottom: 0;
+  color: $accentColor;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolut;
+    margin-top: 28px;
+    width: 78px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accentColor;
+  }
+}
+
+.item {
+  position: relative;
+}
